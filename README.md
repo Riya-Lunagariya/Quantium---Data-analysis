@@ -1,4 +1,5 @@
-# Quantium---Data-analysis
+#Quantium : Retail Analytics
+
 OVERVIEW OF THE TASK:
 
 Analysis of Purchase Behavior
