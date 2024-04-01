@@ -1,4 +1,4 @@
-#Quantium : Retail Analytics
+Quantium : Retail Analytics
 
 OVERVIEW OF THE TASK:
 
