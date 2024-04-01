@@ -1,36 +1,40 @@
 # Quantium---Data-analysis
-Conducted data analysis using data preparation, customer analytics, experimentation, uplift testing, and commercial application. Conducted data analysis using Python to understand purchasing trends and performed high-level data checks. Created measures to compare control and trial stores, reducing re-analysis. 
+OVERVIEW OF THE TASK:
 
-Programming language: Python
-Libraries used: Numpy, Pandas, Matplotlib, seaborn, sklearn, datetime
-
-Task 1: 
-Download the resource csv data files and performe high level data checks using Python such as:
- Creating and interpreting high level summaries of the data
- Finding outliers and removing these (if applicable)
- Checking data formats and correcting (if applicable)
-
-Also deriving extra features such as pack size and brand name from the data and define metrics of interest to draw insights on who spends on chips and what drives spends for each customer segment
-
-Data Cleaning: Checking outliers
-
-![Screenshot (223)](https://user-images.githubusercontent.com/81770671/230743320-a8052e04-0ec8-4a72-bf97-1fa57c7eb699.png)
-
-Task 2: 
-To get started use the QVI_data dataset below or your output from task 1 and consider the monthly sales experience of each store. 
-This can be broken down by:
-total sales revenue
-total number of customers
-average number of transactions per customer
-
-Create a measure to compare different control stores to each of the trial stores to do this write a function to reduce having to re-do the analysis for each trial store. Consider using Pearson correlations or a metric such as a magnitude distance e.g. 1- (Observed distance – minimum distance)/(Maximum distance – minimum distance) as a measure.
-
-Once you have selected your control stores, compare each trial and control pair during the trial period. You want to test if total sales are significantly different in the trial period and if so, check if the driver of change is more purchasing customers or more purchases per customers etc.
-
-![Screenshot (268)](https://user-images.githubusercontent.com/81770671/230743356-1d98a229-3815-4cea-a809-a2a415ac7a53.png)
-
-Task 3:
-Task 3 is targeted specifically at building the ability to recognise commercial, actionable insights from your analysis and displaying it in a clear and concise way for the company's client, with minimal jargon.
-
-As both technical tasks 1 and 2 were open ended in terms of insights, this model answer will focus on the layout and the order of your inclusions, including where to include graphs, taglines, written insights and recommendations.
-
+Analysis of Purchase Behavior
+Objective: Understand customer purchasing patterns, focusing on chips purchasing behavior.
+Actions:
+Segment the data based on product categories to isolate chips purchases.
+Analyze purchase frequencies, preferred brands, and pack sizes among different customer segments.
+Identify key trends such as popular times for purchases and variations in spending across customer lifecycles.
+Customer Segmentation
+Objective: Segment customers to tailor marketing and product strategies effectively.
+Actions:
+Use demographic data (e.g., age, lifestyle) and purchasing data (e.g., average spend, product preferences) to create distinct customer segments.
+Analyze the characteristics and purchasing behavior of each segment.
+Selection of Trial Stores
+Objective: Choose specific stores for conducting trials aimed at assessing the impact of strategic changes.
+Actions:
+Identify trial stores based on criteria like location, store size, and baseline sales performance.
+Ensure a diverse representation of stores to generalize findings across the network.
+Pre-Trial Performance Evaluation
+Objective: Establish a performance baseline for trial stores and select control stores for comparison.
+Actions:
+Calculate key performance indicators (KPIs) such as total sales, number of customers, and average transaction value for the pre-trial period.
+Select control stores with similar pre-trial KPIs to each trial store for a fair comparison.
+Conducting A/B Testing on Trial vs. Control Stores
+Objective: Evaluate the impact of trials by comparing trial stores' performance against matched control stores during the trial period.
+Actions:
+Implement A/B testing for the trial period, analyzing changes in sales, customer count, and transaction patterns.
+Use statistical tests (e.g., t-tests) to assess the significance of observed differences.
+Post-Trial Analysis and Recommendations
+Objective: Assess the trial outcomes and provide actionable insights and recommendations.
+Actions:
+Compare trial stores' performance during and post-trial to control stores to identify sustained impacts.
+Draw conclusions on the effectiveness of the trial interventions.
+Recommend whether the changes should be adopted across other stores based on the trial outcomes.
+Reporting
+Objective: Compile findings, methodologies, and recommendations into a comprehensive report.
+Actions:
+Prepare detailed documentation of the analysis process, findings, and recommendations for stakeholders.
+Include visualizations to illustrate key insights and support conclusions.
